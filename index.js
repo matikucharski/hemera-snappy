@@ -3,9 +3,15 @@
 const SnappyJS = require('snappyjs');
 const Hp = require('hemera-plugin');
 
-exports.plugin = Hp(hemeraSnappy, '>=2.0.0');
+const pluginName = require('./package.json').name;
+exports.plugin = Hp(hemeraSnappy, {
+    hemera: '>=3',
+    name: pluginName,
+    options: {},
+    dependencies: []
+});
 exports.options = {
-    name: require('./package.json').name
+    name: pluginName
 };
 
 function hemeraSnappy(hemera, opts, done) {

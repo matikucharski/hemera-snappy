@@ -18,7 +18,7 @@ const nats = require('nats').connect({
   // otherwise NATS will interpret all data as LATIN1 (binary encoding)
   preserveBuffers: true
 });
-const HemeraSnappy = require('hemera-snappy');
+const HemeraSnappy = require('@barbastudio/hemera-snappy');
 
 const hemera = new Hemera(nats, {
   logLevel: 'info'
