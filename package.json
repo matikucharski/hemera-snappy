@@ -1,5 +1,5 @@
 {
-  "name": "hemera-snappy",
+  "name": "@barbastudio/hemera-snappy",
   "version": "1.0.2",
   "description": "This is a plugin to use snappy compression with Hemera",
   "main": "index.js",
