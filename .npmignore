@@ -7,3 +7,4 @@ packages
 flow-typed
 package-lock.json
 yarn.lock
+.idea
