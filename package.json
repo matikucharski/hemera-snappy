@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "This is a plugin to use snappy compression with Hemera",
   "main": "index.js",
+  "repository": {
+    "url": "git@github.com:matikucharski/hemera-snappy.git",
+    "type": "git"
+  },
   "scripts": {
     "lint": "eslint index.js"
   },
